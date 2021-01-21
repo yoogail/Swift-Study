@@ -80,9 +80,6 @@
                             <constraint firstItem="0X2-xQ-HsM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="vsy-ar-bwK"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="swoosh" destination="0X2-xQ-HsM" id="flO-cx-vfc"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
