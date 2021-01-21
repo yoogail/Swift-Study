@@ -16,5 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
     }
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) { //func 이름은 내 마음대로
+    }
 }
 
