@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BED0C2F025BA8EFD004AC7D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED0C2EF25BA8EFD004AC7D1 /* Player.swift */; };
 		BEFEE06625B6C157003DF73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE06525B6C157003DF73E /* AppDelegate.swift */; };
 		BEFEE06825B6C157003DF73E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE06725B6C157003DF73E /* SceneDelegate.swift */; };
 		BEFEE06A25B6C157003DF73E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE06925B6C157003DF73E /* WelcomeVC.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BED0C2EF25BA8EFD004AC7D1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		BEFEE06225B6C157003DF73E /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFEE06525B6C157003DF73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEFEE06725B6C157003DF73E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BED0C2EE25BA8EEF004AC7D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BED0C2EF25BA8EFD004AC7D1 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BEFEE05925B6C157003DF73E = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +72,7 @@
 		BEFEE06425B6C157003DF73E /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				BEFF66E425B9D2B1001776B0 /* Model */,
+				BED0C2EE25BA8EEF004AC7D1 /* Model */,
 				BEFF66E325B9D2A1001776B0 /* Controller */,
 				BEFEE07A25B6C8A5003DF73E /* View */,
 				BEFEE06525B6C157003DF73E /* AppDelegate.swift */,
@@ -91,13 +101,6 @@
 				BEFF66EA25B9D6FC001776B0 /* SkillVC.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		BEFF66E425B9D2B1001776B0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +177,7 @@
 				BEFEE06625B6C157003DF73E /* AppDelegate.swift in Sources */,
 				BEFF66EB25B9D6FC001776B0 /* SkillVC.swift in Sources */,
 				BEFEE06825B6C157003DF73E /* SceneDelegate.swift in Sources */,
+				BED0C2F025BA8EFD004AC7D1 /* Player.swift in Sources */,
 				BEFEE07C25B6C914003DF73E /* BorderButton.swift in Sources */,
 				BEFF66EF25B9D713001776B0 /* LeagueVC.swift in Sources */,
 			);
