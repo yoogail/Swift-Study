@@ -6,3 +6,11 @@
 //
 
 import Foundation
+/*
+class RoundConner: UIImageView {
+    
+    overide func RoundConner() {
+        view.layer.connnerRadius = 2
+    }
+}
+*/
