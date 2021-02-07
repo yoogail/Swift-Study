@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BED0C2F025BA8EFD004AC7D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED0C2EF25BA8EFD004AC7D1 /* Player.swift */; };
-		BEFEE06625B6C157003DF73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE06525B6C157003DF73E /* AppDelegate.swift */; };
-		BEFEE06825B6C157003DF73E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE06725B6C157003DF73E /* SceneDelegate.swift */; };
-		BEFEE06A25B6C157003DF73E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE06925B6C157003DF73E /* WelcomeVC.swift */; };
-		BEFEE06D25B6C157003DF73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEE06B25B6C157003DF73E /* Main.storyboard */; };
-		BEFEE06F25B6C158003DF73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFEE06E25B6C158003DF73E /* Assets.xcassets */; };
-		BEFEE07225B6C158003DF73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEE07025B6C158003DF73E /* LaunchScreen.storyboard */; };
-		BEFEE07C25B6C914003DF73E /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEE07B25B6C914003DF73E /* BorderButton.swift */; };
-		BEFF66EB25B9D6FC001776B0 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF66EA25B9D6FC001776B0 /* SkillVC.swift */; };
-		BEFF66EF25B9D713001776B0 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF66EE25B9D713001776B0 /* LeagueVC.swift */; };
+		BEF941B925CF0DE500FDA780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941B825CF0DE500FDA780 /* AppDelegate.swift */; };
+		BEF941BB25CF0DE500FDA780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941BA25CF0DE500FDA780 /* SceneDelegate.swift */; };
+		BEF941BD25CF0DE500FDA780 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941BC25CF0DE500FDA780 /* mainVC.swift */; };
+		BEF941C025CF0DE500FDA780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF941BE25CF0DE500FDA780 /* Main.storyboard */; };
+		BEF941C225CF0DE800FDA780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF941C125CF0DE800FDA780 /* Assets.xcassets */; };
+		BEF941C525CF0DE800FDA780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF941C325CF0DE800FDA780 /* LaunchScreen.storyboard */; };
+		BEF941D325CF12A800FDA780 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941D225CF12A800FDA780 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BED0C2EF25BA8EFD004AC7D1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		BEFEE06225B6C157003DF73E /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEFEE06525B6C157003DF73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEFEE06725B6C157003DF73E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEFEE06925B6C157003DF73E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
-		BEFEE06C25B6C157003DF73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEFEE06E25B6C158003DF73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEFEE07125B6C158003DF73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BEFEE07325B6C158003DF73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEFEE07B25B6C914003DF73E /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
-		BEFF66EA25B9D6FC001776B0 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
-		BEFF66EE25B9D713001776B0 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		BEF941B525CF0DE500FDA780 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF941B825CF0DE500FDA780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF941BA25CF0DE500FDA780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF941BC25CF0DE500FDA780 /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		BEF941BF25CF0DE500FDA780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF941C125CF0DE800FDA780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF941C425CF0DE800FDA780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF941C625CF0DE800FDA780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF941D225CF12A800FDA780 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEFEE05F25B6C157003DF73E /* Frameworks */ = {
+		BEF941B225CF0DE500FDA780 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,99 +39,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BED0C2EE25BA8EEF004AC7D1 /* Model */ = {
+		BEF941AC25CF0DE500FDA780 = {
 			isa = PBXGroup;
 			children = (
-				BED0C2EF25BA8EFD004AC7D1 /* Player.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BEFEE05925B6C157003DF73E = {
-			isa = PBXGroup;
-			children = (
-				BEFEE06425B6C157003DF73E /* app-swoosh */,
-				BEFEE06325B6C157003DF73E /* Products */,
+				BEF941B725CF0DE500FDA780 /* window-shopper */,
+				BEF941B625CF0DE500FDA780 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEFEE06325B6C157003DF73E /* Products */ = {
+		BEF941B625CF0DE500FDA780 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEFEE06225B6C157003DF73E /* app-swoosh.app */,
+				BEF941B525CF0DE500FDA780 /* window-shopper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEFEE06425B6C157003DF73E /* app-swoosh */ = {
+		BEF941B725CF0DE500FDA780 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
-				BED0C2EE25BA8EEF004AC7D1 /* Model */,
-				BEFF66E325B9D2A1001776B0 /* Controller */,
-				BEFEE07A25B6C8A5003DF73E /* View */,
-				BEFEE06525B6C157003DF73E /* AppDelegate.swift */,
-				BEFEE06725B6C157003DF73E /* SceneDelegate.swift */,
-				BEFEE06B25B6C157003DF73E /* Main.storyboard */,
-				BEFEE06E25B6C158003DF73E /* Assets.xcassets */,
-				BEFEE07025B6C158003DF73E /* LaunchScreen.storyboard */,
-				BEFEE07325B6C158003DF73E /* Info.plist */,
+				BEF941D125CF124E00FDA780 /* Views */,
+				BEF941CD25CF0E1A00FDA780 /* Controller */,
+				BEF941B825CF0DE500FDA780 /* AppDelegate.swift */,
+				BEF941BA25CF0DE500FDA780 /* SceneDelegate.swift */,
+				BEF941BE25CF0DE500FDA780 /* Main.storyboard */,
+				BEF941C125CF0DE800FDA780 /* Assets.xcassets */,
+				BEF941C325CF0DE800FDA780 /* LaunchScreen.storyboard */,
+				BEF941C625CF0DE800FDA780 /* Info.plist */,
 			);
-			path = "app-swoosh";
+			path = "window-shopper";
 			sourceTree = "<group>";
 		};
-		BEFEE07A25B6C8A5003DF73E /* View */ = {
+		BEF941CD25CF0E1A00FDA780 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BEFEE07B25B6C914003DF73E /* BorderButton.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		BEFF66E325B9D2A1001776B0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BEFEE06925B6C157003DF73E /* WelcomeVC.swift */,
-				BEFF66EE25B9D713001776B0 /* LeagueVC.swift */,
-				BEFF66EA25B9D6FC001776B0 /* SkillVC.swift */,
+				BEF941BC25CF0DE500FDA780 /* mainVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF941D125CF124E00FDA780 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEF941D225CF12A800FDA780 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEFEE06125B6C157003DF73E /* app-swoosh */ = {
+		BEF941B425CF0DE500FDA780 /* window-shopper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEFEE07625B6C158003DF73E /* Build configuration list for PBXNativeTarget "app-swoosh" */;
+			buildConfigurationList = BEF941C925CF0DE800FDA780 /* Build configuration list for PBXNativeTarget "window-shopper" */;
 			buildPhases = (
-				BEFEE05E25B6C157003DF73E /* Sources */,
-				BEFEE05F25B6C157003DF73E /* Frameworks */,
-				BEFEE06025B6C157003DF73E /* Resources */,
+				BEF941B125CF0DE500FDA780 /* Sources */,
+				BEF941B225CF0DE500FDA780 /* Frameworks */,
+				BEF941B325CF0DE500FDA780 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "app-swoosh";
-			productName = "app-swoosh";
-			productReference = BEFEE06225B6C157003DF73E /* app-swoosh.app */;
+			name = "window-shopper";
+			productName = "window-shopper";
+			productReference = BEF941B525CF0DE500FDA780 /* window-shopper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEFEE05A25B6C157003DF73E /* Project object */ = {
+		BEF941AD25CF0DE500FDA780 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					BEFEE06125B6C157003DF73E = {
-						CreatedOnToolsVersion = 12.3;
+					BEF941B425CF0DE500FDA780 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = BEFEE05D25B6C157003DF73E /* Build configuration list for PBXProject "app-swoosh" */;
+			buildConfigurationList = BEF941B025CF0DE500FDA780 /* Build configuration list for PBXProject "window-shopper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,59 +128,56 @@
 				en,
 				Base,
 			);
-			mainGroup = BEFEE05925B6C157003DF73E;
-			productRefGroup = BEFEE06325B6C157003DF73E /* Products */;
+			mainGroup = BEF941AC25CF0DE500FDA780;
+			productRefGroup = BEF941B625CF0DE500FDA780 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEFEE06125B6C157003DF73E /* app-swoosh */,
+				BEF941B425CF0DE500FDA780 /* window-shopper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEFEE06025B6C157003DF73E /* Resources */ = {
+		BEF941B325CF0DE500FDA780 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEFEE07225B6C158003DF73E /* LaunchScreen.storyboard in Resources */,
-				BEFEE06F25B6C158003DF73E /* Assets.xcassets in Resources */,
-				BEFEE06D25B6C157003DF73E /* Main.storyboard in Resources */,
+				BEF941C525CF0DE800FDA780 /* LaunchScreen.storyboard in Resources */,
+				BEF941C225CF0DE800FDA780 /* Assets.xcassets in Resources */,
+				BEF941C025CF0DE500FDA780 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BEFEE05E25B6C157003DF73E /* Sources */ = {
+		BEF941B125CF0DE500FDA780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEFEE06A25B6C157003DF73E /* WelcomeVC.swift in Sources */,
-				BEFEE06625B6C157003DF73E /* AppDelegate.swift in Sources */,
-				BEFF66EB25B9D6FC001776B0 /* SkillVC.swift in Sources */,
-				BEFEE06825B6C157003DF73E /* SceneDelegate.swift in Sources */,
-				BED0C2F025BA8EFD004AC7D1 /* Player.swift in Sources */,
-				BEFEE07C25B6C914003DF73E /* BorderButton.swift in Sources */,
-				BEFF66EF25B9D713001776B0 /* LeagueVC.swift in Sources */,
+				BEF941D325CF12A800FDA780 /* CurrencyTxtField.swift in Sources */,
+				BEF941BD25CF0DE500FDA780 /* mainVC.swift in Sources */,
+				BEF941B925CF0DE500FDA780 /* AppDelegate.swift in Sources */,
+				BEF941BB25CF0DE500FDA780 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEFEE06B25B6C157003DF73E /* Main.storyboard */ = {
+		BEF941BE25CF0DE500FDA780 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BEFEE06C25B6C157003DF73E /* Base */,
+				BEF941BF25CF0DE500FDA780 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BEFEE07025B6C158003DF73E /* LaunchScreen.storyboard */ = {
+		BEF941C325CF0DE800FDA780 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BEFEE07125B6C158003DF73E /* Base */,
+				BEF941C425CF0DE800FDA780 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -205,7 +185,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BEFEE07425B6C158003DF73E /* Debug */ = {
+		BEF941C725CF0DE800FDA780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -266,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		BEFEE07525B6C158003DF73E /* Release */ = {
+		BEF941C825CF0DE800FDA780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -321,38 +301,38 @@
 			};
 			name = Release;
 		};
-		BEFEE07725B6C158003DF73E /* Debug */ = {
+		BEF941CA25CF0DE800FDA780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 877MN2RY22;
-				INFOPLIST_FILE = "app-swoosh/Info.plist";
+				INFOPLIST_FILE = "window-shopper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoogail.app-swoosh";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoogail.window-shopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BEFEE07825B6C158003DF73E /* Release */ = {
+		BEF941CB25CF0DE800FDA780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 877MN2RY22;
-				INFOPLIST_FILE = "app-swoosh/Info.plist";
+				INFOPLIST_FILE = "window-shopper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoogail.app-swoosh";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoogail.window-shopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEFEE05D25B6C157003DF73E /* Build configuration list for PBXProject "app-swoosh" */ = {
+		BEF941B025CF0DE500FDA780 /* Build configuration list for PBXProject "window-shopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFEE07425B6C158003DF73E /* Debug */,
-				BEFEE07525B6C158003DF73E /* Release */,
+				BEF941C725CF0DE800FDA780 /* Debug */,
+				BEF941C825CF0DE800FDA780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEFEE07625B6C158003DF73E /* Build configuration list for PBXNativeTarget "app-swoosh" */ = {
+		BEF941C925CF0DE800FDA780 /* Build configuration list for PBXNativeTarget "window-shopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFEE07725B6C158003DF73E /* Debug */,
-				BEFEE07825B6C158003DF73E /* Release */,
+				BEF941CA25CF0DE800FDA780 /* Debug */,
+				BEF941CB25CF0DE800FDA780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BEFEE05A25B6C157003DF73E /* Project object */;
+	rootObject = BEF941AD25CF0DE500FDA780 /* Project object */;
 }
