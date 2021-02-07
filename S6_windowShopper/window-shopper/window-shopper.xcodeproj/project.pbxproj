@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		BEF9418125CF0C4400FDA780 /* window_shopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9418025CF0C4400FDA780 /* window_shopperApp.swift */; };
 		BEF9418325CF0C4400FDA780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9418225CF0C4400FDA780 /* ContentView.swift */; };
 		BEF9418525CF0C4500FDA780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF9418425CF0C4500FDA780 /* Assets.xcassets */; };
@@ -24,6 +25,31 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEF9417A25CF0C4400FDA780 /* Frameworks */ = {
+=======
+		BEF941B925CF0DE500FDA780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941B825CF0DE500FDA780 /* AppDelegate.swift */; };
+		BEF941BB25CF0DE500FDA780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941BA25CF0DE500FDA780 /* SceneDelegate.swift */; };
+		BEF941BD25CF0DE500FDA780 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941BC25CF0DE500FDA780 /* mainVC.swift */; };
+		BEF941C025CF0DE500FDA780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF941BE25CF0DE500FDA780 /* Main.storyboard */; };
+		BEF941C225CF0DE800FDA780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF941C125CF0DE800FDA780 /* Assets.xcassets */; };
+		BEF941C525CF0DE800FDA780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF941C325CF0DE800FDA780 /* LaunchScreen.storyboard */; };
+		BEF941D325CF12A800FDA780 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF941D225CF12A800FDA780 /* CurrencyTxtField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEF941B525CF0DE500FDA780 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF941B825CF0DE500FDA780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF941BA25CF0DE500FDA780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF941BC25CF0DE500FDA780 /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		BEF941BF25CF0DE500FDA780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF941C125CF0DE800FDA780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF941C425CF0DE800FDA780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF941C625CF0DE800FDA780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF941D225CF12A800FDA780 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF941B225CF0DE500FDA780 /* Frameworks */ = {
+>>>>>>> lesson-01
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +59,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		BEF9417425CF0C4300FDA780 = {
 			isa = PBXGroup;
 			children = (
@@ -45,10 +72,25 @@
 			isa = PBXGroup;
 			children = (
 				BEF9417D25CF0C4400FDA780 /* window-shopper.app */,
+=======
+		BEF941AC25CF0DE500FDA780 = {
+			isa = PBXGroup;
+			children = (
+				BEF941B725CF0DE500FDA780 /* window-shopper */,
+				BEF941B625CF0DE500FDA780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF941B625CF0DE500FDA780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF941B525CF0DE500FDA780 /* window-shopper.app */,
+>>>>>>> lesson-01
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		BEF9417F25CF0C4400FDA780 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,21 +99,52 @@
 				BEF9418425CF0C4500FDA780 /* Assets.xcassets */,
 				BEF9418925CF0C4500FDA780 /* Info.plist */,
 				BEF9418625CF0C4500FDA780 /* Preview Content */,
+=======
+		BEF941B725CF0DE500FDA780 /* window-shopper */ = {
+			isa = PBXGroup;
+			children = (
+				BEF941D125CF124E00FDA780 /* Views */,
+				BEF941CD25CF0E1A00FDA780 /* Controller */,
+				BEF941B825CF0DE500FDA780 /* AppDelegate.swift */,
+				BEF941BA25CF0DE500FDA780 /* SceneDelegate.swift */,
+				BEF941BE25CF0DE500FDA780 /* Main.storyboard */,
+				BEF941C125CF0DE800FDA780 /* Assets.xcassets */,
+				BEF941C325CF0DE800FDA780 /* LaunchScreen.storyboard */,
+				BEF941C625CF0DE800FDA780 /* Info.plist */,
+>>>>>>> lesson-01
 			);
 			path = "window-shopper";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		BEF9418625CF0C4500FDA780 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				BEF9418725CF0C4500FDA780 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+=======
+		BEF941CD25CF0E1A00FDA780 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF941BC25CF0DE500FDA780 /* mainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF941D125CF124E00FDA780 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEF941D225CF12A800FDA780 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+>>>>>>> lesson-01
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		BEF9417C25CF0C4400FDA780 /* window-shopper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF9418C25CF0C4500FDA780 /* Build configuration list for PBXNativeTarget "window-shopper" */;
@@ -79,6 +152,15 @@
 				BEF9417925CF0C4400FDA780 /* Sources */,
 				BEF9417A25CF0C4400FDA780 /* Frameworks */,
 				BEF9417B25CF0C4400FDA780 /* Resources */,
+=======
+		BEF941B425CF0DE500FDA780 /* window-shopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF941C925CF0DE800FDA780 /* Build configuration list for PBXNativeTarget "window-shopper" */;
+			buildPhases = (
+				BEF941B125CF0DE500FDA780 /* Sources */,
+				BEF941B225CF0DE500FDA780 /* Frameworks */,
+				BEF941B325CF0DE500FDA780 /* Resources */,
+>>>>>>> lesson-01
 			);
 			buildRules = (
 			);
@@ -86,24 +168,40 @@
 			);
 			name = "window-shopper";
 			productName = "window-shopper";
+<<<<<<< HEAD
 			productReference = BEF9417D25CF0C4400FDA780 /* window-shopper.app */;
+=======
+			productReference = BEF941B525CF0DE500FDA780 /* window-shopper.app */;
+>>>>>>> lesson-01
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		BEF9417525CF0C4300FDA780 /* Project object */ = {
+=======
+		BEF941AD25CF0DE500FDA780 /* Project object */ = {
+>>>>>>> lesson-01
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+<<<<<<< HEAD
 					BEF9417C25CF0C4400FDA780 = {
+=======
+					BEF941B425CF0DE500FDA780 = {
+>>>>>>> lesson-01
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
+<<<<<<< HEAD
 			buildConfigurationList = BEF9417825CF0C4300FDA780 /* Build configuration list for PBXProject "window-shopper" */;
+=======
+			buildConfigurationList = BEF941B025CF0DE500FDA780 /* Build configuration list for PBXProject "window-shopper" */;
+>>>>>>> lesson-01
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +209,96 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = BEF9417425CF0C4300FDA780;
 			productRefGroup = BEF9417E25CF0C4400FDA780 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BEF9417C25CF0C4400FDA780 /* window-shopper */,
+=======
+			mainGroup = BEF941AC25CF0DE500FDA780;
+			productRefGroup = BEF941B625CF0DE500FDA780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF941B425CF0DE500FDA780 /* window-shopper */,
+>>>>>>> lesson-01
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		BEF9417B25CF0C4400FDA780 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BEF9418825CF0C4500FDA780 /* Preview Assets.xcassets in Resources */,
 				BEF9418525CF0C4500FDA780 /* Assets.xcassets in Resources */,
+=======
+		BEF941B325CF0DE500FDA780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF941C525CF0DE800FDA780 /* LaunchScreen.storyboard in Resources */,
+				BEF941C225CF0DE800FDA780 /* Assets.xcassets in Resources */,
+				BEF941C025CF0DE500FDA780 /* Main.storyboard in Resources */,
+>>>>>>> lesson-01
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		BEF9417925CF0C4400FDA780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BEF9418325CF0C4400FDA780 /* ContentView.swift in Sources */,
 				BEF9418125CF0C4400FDA780 /* window_shopperApp.swift in Sources */,
+=======
+		BEF941B125CF0DE500FDA780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF941D325CF12A800FDA780 /* CurrencyTxtField.swift in Sources */,
+				BEF941BD25CF0DE500FDA780 /* mainVC.swift in Sources */,
+				BEF941B925CF0DE500FDA780 /* AppDelegate.swift in Sources */,
+				BEF941BB25CF0DE500FDA780 /* SceneDelegate.swift in Sources */,
+>>>>>>> lesson-01
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+<<<<<<< HEAD
 /* Begin XCBuildConfiguration section */
 		BEF9418A25CF0C4500FDA780 /* Debug */ = {
+=======
+/* Begin PBXVariantGroup section */
+		BEF941BE25CF0DE500FDA780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF941BF25CF0DE500FDA780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF941C325CF0DE800FDA780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF941C425CF0DE800FDA780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF941C725CF0DE800FDA780 /* Debug */ = {
+>>>>>>> lesson-01
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +359,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		BEF9418B25CF0C4500FDA780 /* Release */ = {
+=======
+		BEF941C825CF0DE800FDA780 /* Release */ = {
+>>>>>>> lesson-01
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,16 +418,25 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		BEF9418D25CF0C4500FDA780 /* Debug */ = {
+=======
+		BEF941CA25CF0DE800FDA780 /* Debug */ = {
+>>>>>>> lesson-01
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_ASSET_PATHS = "\"window-shopper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "window-shopper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+=======
+				DEVELOPMENT_TEAM = 877MN2RY22;
+				INFOPLIST_FILE = "window-shopper/Info.plist";
+>>>>>>> lesson-01
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,16 +448,25 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		BEF9418E25CF0C4500FDA780 /* Release */ = {
+=======
+		BEF941CB25CF0DE800FDA780 /* Release */ = {
+>>>>>>> lesson-01
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_ASSET_PATHS = "\"window-shopper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "window-shopper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+=======
+				DEVELOPMENT_TEAM = 877MN2RY22;
+				INFOPLIST_FILE = "window-shopper/Info.plist";
+>>>>>>> lesson-01
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,25 +481,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		BEF9417825CF0C4300FDA780 /* Build configuration list for PBXProject "window-shopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF9418A25CF0C4500FDA780 /* Debug */,
 				BEF9418B25CF0C4500FDA780 /* Release */,
+=======
+		BEF941B025CF0DE500FDA780 /* Build configuration list for PBXProject "window-shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF941C725CF0DE800FDA780 /* Debug */,
+				BEF941C825CF0DE800FDA780 /* Release */,
+>>>>>>> lesson-01
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		BEF9418C25CF0C4500FDA780 /* Build configuration list for PBXNativeTarget "window-shopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF9418D25CF0C4500FDA780 /* Debug */,
 				BEF9418E25CF0C4500FDA780 /* Release */,
+=======
+		BEF941C925CF0DE800FDA780 /* Build configuration list for PBXNativeTarget "window-shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF941CA25CF0DE800FDA780 /* Debug */,
+				BEF941CB25CF0DE800FDA780 /* Release */,
+>>>>>>> lesson-01
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = BEF9417525CF0C4300FDA780 /* Project object */;
+=======
+	rootObject = BEF941AD25CF0DE500FDA780 /* Project object */;
+>>>>>>> lesson-01
 }
